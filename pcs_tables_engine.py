@@ -4,7 +4,7 @@ from typing import Dict, List, Optional, Tuple
 from dataclasses import dataclass, field
 from lxml import etree
 from collections import defaultdict, deque
-
+import io
 # --------- Trie data structure ----------
 @dataclass
 class TrieNode:
